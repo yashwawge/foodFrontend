@@ -1,5 +1,5 @@
 import { ArrowRightFilled } from "../Components/icons/ArrowRightFilled";
-
+import PizzaImage from '../assets/images/vegies.webp';
 function Home(){
     return (
         <div>
@@ -25,6 +25,9 @@ function Home(){
                    </button>
                 </div>
 
+               <div>
+                  <img src={PizzaImage} alt="Pizza"  className="w-[400px]  md:w-[450px]  "/>
+               </div>
               
            </section>
         </div>
